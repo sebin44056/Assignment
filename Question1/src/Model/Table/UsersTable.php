@@ -36,7 +36,7 @@ class UsersTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+   /* public function validationDefault(Validator $validator)
     {
         $validator
             ->add('id', 'valid', ['rule' => 'numeric'])
@@ -77,7 +77,7 @@ class UsersTable extends Table
             ->allowEmpty('phone');
 
         return $validator;
-    }
+    }*/
 
     /**
      * Returns a rules checker object that will be used for validating

@@ -78,7 +78,7 @@ class OrdersController extends AppController
 		   $totalCost=$cCost+$sCost+($toppingNumber-1)*0.50;
 		   $order->cost=$totalCost;
           
-		$order->userid= $this->Auth->user('id');
+		//$order->userid= $this->Auth->user('id');
         // You could also do the following
         //$newData = ['user_id' => $this->Auth->user('id')];
         //$article = $this->Orders->patchEntity($order, $newData);

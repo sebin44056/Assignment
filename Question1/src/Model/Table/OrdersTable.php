@@ -36,7 +36,7 @@ class OrdersTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
+  /*  public function validationDefault(Validator $validator)
     {
         $validator
             ->add('id', 'valid', ['rule' => 'numeric'])
@@ -65,5 +65,5 @@ class OrdersTable extends Table
             ->notEmpty('cost');
 
         return $validator;
-    }
+    }*/
 }
